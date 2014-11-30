@@ -22,9 +22,10 @@ environments {
 }
 ```
 
-I have create class ```com.test.Counter``` that holds numbers of closure calls
-for both situation. Expected behaviour is that ```environments``` and ```environments.test```
-closures was called the same times count during the test.
+I have created class ```com.test.Counter``` that holds numbers of closure calls
+for both situations. Expected behaviour is that ```environments``` and ```environments.test```
+closures must be called the same times count during the test.
 
 Running tests: ```grails test-app -Duse.closure=true``` we use example code #1 and test fails.
+
 Running tests: ```grails test-app``` we use example code #2 and test passes.
