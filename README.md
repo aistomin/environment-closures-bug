@@ -1,3 +1,5 @@
+Grails Jira issue: https://jira.grails.org/browse/GRAILS-11847
+
 This project illustrates the problem with using this ```Config.groovy``` code:
 
 ```
